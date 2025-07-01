@@ -1,7 +1,6 @@
-﻿namespace Htg.Hic.EE4Show.Services.Interfaces
+﻿namespace Htg.Hic.EE4Show.Services.Interfaces;
+
+public interface IMessageService
 {
-    public interface IMessageService
-    {
-        string GetMessage();
-    }
+	string GetMessage();
 }

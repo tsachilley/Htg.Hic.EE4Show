@@ -1,18 +1,14 @@
-﻿using Prism.Mvvm;
-using Prism.Navigation;
+﻿namespace Htg.Hic.EE4Show.Core.Mvvm;
 
-namespace Htg.Hic.EE4Show.Core.Mvvm
+public abstract class ViewModelBase : BindableBase, IDestructible
 {
-    public abstract class ViewModelBase : BindableBase, IDestructible
-    {
-        protected ViewModelBase()
-        {
+	protected ViewModelBase()
+	{
 
-        }
+	}
 
-        public virtual void Destroy()
-        {
+	public virtual void Destroy()
+	{
 
-        }
-    }
+	}
 }

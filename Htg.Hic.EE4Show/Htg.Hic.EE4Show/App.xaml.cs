@@ -2,8 +2,6 @@
 using Htg.Hic.EE4Show.Services;
 using Htg.Hic.EE4Show.Services.Interfaces;
 using Htg.Hic.EE4Show.Views;
-using Prism.Ioc;
-using Prism.Modularity;
 using System.Windows;
 
 namespace Htg.Hic.EE4Show;
