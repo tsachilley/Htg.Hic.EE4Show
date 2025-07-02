@@ -16,7 +16,7 @@
     WindowStyle="None">
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="{Binding BgPath}" Stretch="Uniform" />
+            <ImageBrush ImageSource="{Binding BgPath}" Stretch="UniformToFill" />
         </Grid.Background>
         <Button
             Width="50"
