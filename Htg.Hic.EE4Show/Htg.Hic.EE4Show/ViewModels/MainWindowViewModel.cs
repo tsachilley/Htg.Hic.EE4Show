@@ -3,6 +3,7 @@
 public class MainWindowViewModel : BindableBase
 {
 	private string _title = "IShip System";
+
 	public string Title
 	{
 		get { return _title; }
@@ -23,8 +24,6 @@ public class MainWindowViewModel : BindableBase
 			"/Resources/Images/2025-06-20_163226.png",
 			"/Resources/Images/2025-06-20_163320.png",
 			"/Resources/Images/2025-06-25_114847.png",
-			"/Resources/Images/2025-06-25_114924.png",
-			"/Resources/Images/2025-06-25_115005.png",
 			"/Resources/Images/2025-06-25_115034.png",
 			"/Resources/Images/2025-06-25_115046.png",
 			"/Resources/Images/2025-06-25_115059.png",
