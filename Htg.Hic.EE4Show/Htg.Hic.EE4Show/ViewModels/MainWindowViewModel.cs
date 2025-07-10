@@ -38,7 +38,7 @@ public class MainWindowViewModel : BindableBase
 			while (true)
 			{
 				BgPath = Backgrounds[i];
-				await Task.Delay(10 * 1000);
+				await Task.Delay(5 * 1000);
 				i++;
 				if (i >= Backgrounds.Count)
 					i = 0;
